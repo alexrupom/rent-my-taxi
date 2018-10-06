@@ -1,0 +1,982 @@
+body 
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+#custom-wrapper
+{
+	width: 100%;
+	overflow: hidden;
+	height: auto;
+}
+
+
+
+
+
+
+/****************** MENU ***************************/
+/*
+/***************************************************/
+
+header
+{
+	clear: both;
+	float: left;
+	width: 100%;
+	height: 70px;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+
+	background: -webkit-linear-gradient(#090909, #2E2E30);
+    background: -o-linear-gradient(#090909, #2E2E30);
+    background: -moz-linear-gradient(#2E2E30,#090909); 
+    background: linear-gradient(#2E2E30,#090909);
+}
+
+
+header h3 
+{
+	line-height: 70px;
+	color: white;
+	font-family: Georgia,sans-serif;
+	font-style: italic;
+	font-size: 16px;
+	float: right;
+	margin-top: 0;
+	margin-right: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************** SIDEBAR ************************/
+/*
+/***************************************************/
+
+
+#sidebar 
+{
+	clear: both;
+	float: left;
+}
+
+
+
+
+
+
+
+/****************** RIGHT CONTAINER ****************/
+/*
+/***************************************************/
+
+
+#right-container 
+{
+	padding-top: 50px;
+	clear: both;
+	width: calc(100% - 250px);
+	min-height: 586px;
+	height: auto;
+	float: right;
+	margin-top: 70px;
+}
+
+
+
+
+#personal-info 
+{
+	float: left;
+	width: 60%;
+	height: 500px;
+}
+
+
+
+
+#personal-info h1 
+{		
+	margin-top: 0px;
+	margin-bottom: 30px;
+	font-family: Georgia,sans-serif;
+	font-size: 30px;
+	font-style: italic;
+	color: black;
+}
+
+
+#pro-pic 
+{
+	float: left;
+	width: 35%;
+	height: 300px;
+	box-sizing:border-box;
+	padding: 0px 50px 50px 50px;
+	
+}
+
+#pro-pic img 
+{
+	width: 75%;
+	height: 80%;
+	border-radius: 100px;
+}
+
+
+#personal-info a 
+{
+	clear: both;
+	float: left;
+	margin-top: 30px;
+	color: black;
+	text-decoration: none;
+	font-family: 'Roboto',sans-serif;
+	font-size: 15px;
+	width: auto;
+	height: auto;
+	box-sizing:border-box;
+	padding: 5px 10px;
+	border: 1px solid black;
+
+	-webkit-transition:background 0.5s,color .1s;
+	-moz-transition:background 0.5s,color .1s;
+	-ms-transition:background 0.5s,color .1s;
+	-o-transition:background 0.5s,color .1s;
+	transition:background 0.5s,color .1s;
+}
+
+
+#personal-info a:hover
+{
+	background: black;
+	color: white;
+}
+
+.member-info
+{
+	float: left;
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+
+#personal-info h2
+{
+	float: left;
+	width: auto;
+	height: auto;
+	font-size: 17px;
+	color: black;
+	margin: 0 0 30px 0;
+	padding: 0;
+}
+
+
+#personal-info em 
+{
+	float: right;
+	margin-top: -7px;
+	font-size: 17px;
+	margin-left: 15px;
+	font-weight: bold;
+	color: black;
+}
+
+
+#personal-info h3 
+{
+	float: left;
+	width: 20%;
+	height: auto;
+	font-size: 15px;
+	color: #666;
+	font-family: 'Roboto',sans-serif;
+	border-radius: 10px;
+	margin: 0;
+
+}
+
+#personal-info p 
+{
+
+	float: right;
+	margin-right: 15% !important;
+	width: 50%;
+	height: auto;
+	font-size: 15px;
+	color: #666;
+	font-family: 'Roboto',sans-serif;
+	border-radius: 10px;;
+	padding-left: 20px !important;
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************** CAB GALLERY **********************/
+/*
+/*********************************************************/
+
+
+#cab-gallery
+{
+	clear: both; 
+}
+
+#cab-gallery h2,
+.order-and-map h2 
+{
+	font-family: 'Roboto',sans-serif;
+	color: black;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+
+.gallery-contents
+{
+	height: 400px;
+	overflow-y:scroll; 
+}
+
+.big-image img 
+{
+	width: auto !important;
+	max-width: 100% !important;
+	height: 400px !important;
+}
+
+.thumbnail-gallery img
+{	
+	width: auto !important;
+	max-width: 100% !important;
+	height: 100px !important;
+}
+
+
+.order-and-map 
+{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 80px;
+	margin-bottom: 50px;	
+
+}
+
+
+.order-form
+{
+	padding-left: 35px !important;	
+	float: left !important;
+	height: auto;
+}
+
+.map  
+{
+	float: right !important;
+	height: auto;
+}
+
+.map img 
+{
+	width: 100%;
+	height: 420px;
+	border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************** RENT A CAR GALLERY *****************/
+/*
+/*****************************************************/
+
+
+
+
+#rent-car-gallery 
+{
+	clear: both;
+	height: auto;
+	box-sizing:border-box;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+
+#rent-car-info 
+{
+	float: left;
+	height: auto;
+	padding-left: 0 !important;
+	text-align: justify;
+	padding-right: 20px;
+	font-family: 'Roboto',sans-serif;
+	font-size: 15px;
+
+}
+
+#rent-car-info p 
+{
+	-webkit-columns:2;
+	-moz-columns:2;
+	-ms-columns:2;
+	-o-columns:2;
+	columns:2;
+
+	-webkit-column-gap:40px;
+	-moz-column-gap:40px;
+	-ms-column-gap:40px;
+	-o-column-gap:40px;
+	column-gap:40px;
+
+}
+
+
+#car-collection h2,
+#rent-car-info h2,
+#car-feedback h2 
+{
+	font-family: 'Roboto',sans-serif;
+	color: black;
+	margin-bottom: 30px;	
+	margin-left: 0;
+}
+
+#car-collection 
+{
+	box-sizing:border-box;
+	float: left;
+	height: auto;
+	margin-top: 50px;
+	padding: 0;
+	margin-bottom: 50px;
+}
+
+
+.rent-gallery
+{
+	margin-bottom: 30px;
+	height: auto;
+	box-sizing:border-box;
+	padding: 10px;
+	border: none;
+
+	-webkit-transition:all 1s;
+	-moz-transition:all 1s;
+	-o-transition:all 1s;
+	-ms-transition:all 1s;
+	transition:all 1s;
+}
+
+.available,
+.not-available 
+{
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+}
+
+.available
+{
+	color: #449D44;
+}
+
+.not-available
+{
+	color: red;
+}
+
+
+.rent-gallery img 
+{
+	width: 78%;
+	height: 200px;
+	box-sizing:border-box;
+	padding: 10px;
+}
+
+.rent-gallery:hover img
+{
+	border: 1px solid #008CBA;
+
+}
+
+.car-detail 
+{
+	font-family: 'Roboto',sans-serif;
+	font-style: italic;
+	padding-left: 30px;
+	color: white;
+}
+
+.car-detail h2
+{
+	margin-bottom: 30px;
+}
+
+.car-detail p 
+{
+	text-align: justify;
+	margin-bottom: 20px;
+	line-height: 20px;
+	letter-spacing: 1px;
+
+}
+
+
+#car-feedback 
+{
+
+	height: auto;
+	box-sizing:border-box;
+	padding-top: 1px;
+	padding-left: 80px;
+	padding-right: 0;
+
+}
+
+
+#car-feedback h2 
+{
+	font-size: 21px;
+	margin-top: 0;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #e3e3e3;
+}
+
+
+
+#car-feedback form 
+{
+	margin-top: 30px;
+}
+
+
+
+#car-feedback textarea
+{
+	width: 400px;
+	height: 200px;
+	border-radius: 10px;
+	border: 1px solid #ccc !important;
+	color: #666;
+	padding: 5px 10px; 
+	margin-bottom:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************* NOTICE **************************/
+/*
+/*****************************************************/
+
+
+.notice-board h2 
+{
+	font-size: 20px;
+	margin-left: 20px;
+	font-family: 'Roboto',sans-serif;
+	color: black;
+	margin-bottom: 30px;
+}
+
+.desc 
+{
+	padding-top: 20px;
+}
+
+.notice 
+{
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************LEAVE MEMBERSHIP******************/
+/*
+/*****************************************************/
+
+
+.leave-membership h2 
+{
+	font-size: 20px;
+	margin-left: 20px;
+	font-family: 'Roboto',sans-serif;
+	color: black;
+	margin-bottom: 30px;
+}
+
+
+.leave-membership p 
+{
+	margin-left: 20px;
+	font-family: 'Roboto',sans-serif;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+
+
+.leave-membership form 
+{
+	margin-left: 20px;
+}
+
+
+.leave-membership textarea
+{
+	display: block;
+	width: 400px;
+	height: 200px;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+	margin-top: 20px;
+	padding: 10px 15px;
+	color: #666;
+	margin-bottom: 20px;
+}
+
+
+.leave-membership label 
+{
+	display: block;
+}
+
+.leave-membership input 
+{
+	margin-left: 30px;
+}
+
+
+.submit-button 
+{
+	background: black;
+	border: 1px solid black; 
+	color: white;
+	width: auto;
+	padding: 2px 10px;
+	height: 30px;
+	border-radius: 5px;
+	display: block;
+	margin-top: 20px;
+	margin-left: 0px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer 
+{
+	width: calc(100% + 20px);
+	height: 60px;
+	float: left;
+	margin-top: 100px;
+	background: -webkit-linear-gradient(#272729,#2A2A2C);	
+	background: -moz-linear-gradient(#272729,#2A2A2C);
+	background: -o-linear-gradient(#272729,#2A2A2C);
+	background: ms-gradient(#272729,#2A2A2C);
+	background: linear-gradient(#272729,#2A2A2C);
+}
+
+
+footer p 
+{
+	text-align: center;
+	color: white;
+	line-height: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************** TAB CAB CONTENT ****************/
+/*
+/***************************************************/
+
+
+.tab-pane h3
+{
+	float: left;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.cab-tab-content
+{
+	float: left;
+	width: 100%;
+	height: auto;	
+}
+
+.cab-tab-content img 
+{
+	float: left;
+	width: 220px;
+	height: 200px;
+}
+
+
+.full-list
+{
+	float: left;
+	width: 45%;
+	height: auto;
+	margin-right: 5%;
+	margin-bottom: 30px;
+}
+
+.order-list-content
+{
+	float: left;
+	width: 100%;
+	height: auto;
+}
+
+.order-list
+{
+	width: 400px;
+	height: auto;
+	float: left;
+	margin-bottom: 30px;
+}
+
+
+.order-list h4 
+{
+	width: 50%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.order-list p 
+{
+	width: 50%;
+	float: right;	
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+
+.car-order-list-content
+{
+	float: right;
+	width: calc(100% - 300px);
+	height: auto;
+}
+
+.car-order-list
+{
+	width: 400px;
+	height: auto;
+	float: left;
+	margin-bottom: 30px;
+}
+
+
+.car-order-list h4 
+{
+	width: 50%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.car-order-list p 
+{
+	width: 50%;
+	float: right;	
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+
+
+.cancel-order
+{
+	font-size: 17px;
+	color: #44B3C2;
+}
+
+
+.status-success
+{
+	font-size: 17px;
+	color: green;
+}
+
+
+.status-pending
+{
+	font-size: 17px;
+	color: orange;
+}
+
+.status-cancelled
+{
+	font-size: 17px;
+	color: red;
+}

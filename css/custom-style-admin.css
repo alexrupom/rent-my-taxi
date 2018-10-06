@@ -1,0 +1,1280 @@
+body 
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+#custom-wrapper
+{
+	width: 100%;
+	overflow: hidden;
+	height: auto;
+}
+
+
+#custom-header
+{
+	float: left;
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #23282E;
+	z-index: 999;
+}
+
+#custom-header #logo 
+{
+	float: left;
+	margin-left: 20px;
+	margin-top: 15px;
+	width: 220px;
+	height: 50px;
+}
+
+#logo h5 
+{
+	line-height: 50px;
+	font-family: Georgia,sans-serif;
+	font-style: italic;
+	font-size: 15px;
+	color: white;
+	margin: 0;
+	float: right;
+}
+
+#logo img 
+{
+	float: left;
+	width: 100px;
+	height: 100%;
+}
+
+
+#custom-header ul 
+{
+	width: auto;
+	height: auto;
+	float: right;
+	line-height: 80px;
+	margin-right: 50px;
+}
+
+#custom-header ul li 
+{
+	display: inline;
+	margin-right: 30px;
+}
+
+#custom-header ul li a 
+{
+	text-decoration: none;
+	font-style: italic;
+	color: white;
+	font-family: arial,sans-serif;
+	font-size: 15px;
+}
+
+
+#right-container 
+{
+	width: calc(100% - 220px);
+	min-height: 576px;
+	height: auto;
+	float: right;
+	padding-left: 5%;
+	padding-top: 2%;
+	margin-top: 80px;
+
+	font-family: Georgia,sans-serif;
+	font-style: italic;
+	
+
+}
+
+
+#right-container h2 
+{
+	font-size: 25px;
+	margin-bottom: 50px;
+	text-transform: capitalize;
+}
+
+
+
+
+
+
+/************************ SLIDER FORM **************************/
+/*
+/***************************************************************/
+
+
+
+ul.slider-form 
+{
+	padding-left: 0;
+
+}
+
+
+ul.slider-form li 
+{
+	display: block;
+	list-style: none;
+}
+
+.slider-image
+{	
+	float: left;
+	margin-bottom: 30px;
+	margin-right: 8%;
+	width: 42%;
+	height:250px;
+	background: #E3E3E3;
+	border: 1px solid #ccc;
+	box-sizing:border-box;
+	padding: 10px;
+}
+
+.slider-image img 
+{
+	width: 230px;
+	height: 180px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.slider-image div 
+{
+	float: right;
+	width: calc(100% - 250px);
+	height: 100%;
+	overflow: hidden; 
+}
+
+.slider-image div textarea.has-texts
+{
+	width: 100%;
+	height: 80px;
+	margin-bottom: 20px;
+	padding: 5px 10px;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+
+}
+
+.slider-image form input 
+{
+	margin-top: -5px;
+	float: right;
+}
+
+
+.file-upload 
+{
+	width: 80px;
+	float: left;
+}
+
+
+.custom-button 
+{
+	margin-top: -7px;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************ ABOUT US FORM ************************/
+/*
+/***************************************************************/
+
+
+
+div.textarea-container
+{
+	width: 45%;
+	height: 200px;
+	overflow: hidden;
+
+}
+
+textarea.about-us-textarea
+{	
+	width: 100%;
+	height: 100%;
+	padding: 5px 10px;	
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+
+}
+
+
+div.top-para 
+{
+	float: left;
+}
+
+div.bottom-para
+{
+	float: right;
+}
+
+
+form.about-us-form 
+{
+	float: left;
+	width: 95%;
+	height: auto;
+	padding-left: 0;
+	padding-bottom: 50px;
+	position: relative;
+
+}
+
+form.about-us-form ul 
+{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 90px;
+	padding-left: 0;
+}
+
+
+form.about-us-form ul li 
+{
+	list-style: none;
+	width: 33.3333333333333%;
+	box-sizing:border-box;
+	padding-left: 30px;
+	height: 50px;
+	float: left;
+}
+
+
+form.about-us-form ul li input 
+{
+	width: 70%;
+	float: right;
+	padding-left: 20px;
+}
+
+
+.about-us-button 
+{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************** SAFETY CERTAINTY TIMING ******************/
+/*
+/***************************************************************/
+
+
+form.safety-certainty-timing
+{
+	float: left;
+	width: 95%;
+	height: auto;
+	position: relative;
+}
+
+
+
+div.safety-certainty-timing-textarea
+{
+	float: left;
+	width: calc(33.3333333333333% - 20px);
+	height: 450px;
+	margin-right: 20px;
+	overflow: hidden;
+}
+
+
+div.safety-certainty-timing-textarea input
+{
+	width: 100%;
+	height: 30px;
+	margin-bottom: 20px;
+	padding: 5px 10px;
+	border: 1px solid #ccc;
+}
+
+div.safety-certainty-timing-textarea textarea
+{
+	width: 100%;
+	height: 320px;
+	padding: 5px 10px;
+	border: 1px solid #ccc;
+}
+
+
+.safety-certainty-timing-button 
+{
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	width: 100px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************************** COSTS ****************************/
+/*
+/***************************************************************/
+
+table.cost-table 
+{
+	width: 95%;
+	height: auto;
+	float: left;
+	padding-left: 0;
+	padding-bottom: 50px;
+	position: relative;
+	margin-right: 3%;
+	margin-bottom: 50px;
+}
+
+
+table.cost-table th 
+{
+	font-family: Georgia,sans-serif;
+	font-size: 17px;
+	font-style: italic;
+	border: 1px solid #CCC;
+	padding: 15px;
+	text-align: center;
+}
+
+
+table.cost-table td 
+{	
+	text-align: center;
+	width: 25%;
+	height: 40px;
+	padding: 15px;
+	border: 1px solid #E1E1E1;
+	border-radius: 3px;
+	border: 1px solid #CCC;
+}
+
+
+table.cost-table td input
+{
+	width: 100%;
+	padding: 15px;
+
+}
+
+table.cost-table td input.post-edit
+{
+	width: auto;
+	height: auto;
+	padding: 5px 10px;
+
+}
+
+table.cost-table td a 
+{
+	color: black;
+	padding: 5px 10px;
+	background: #23282E;
+	height: auto;
+	width: auto;
+	color: white;
+	border-radius: 5px;	
+	text-decoration: none;
+}
+
+.cost-button 
+{
+	position: absolute;
+	bottom: 0px;
+	right: 30px;
+	width: 100px;
+	height: 30px;
+	background: #23282E;
+	border: 1px solid #23282E;
+	border-radius: 5px;
+	color: white;
+}
+
+
+ul#add-new-cost-row
+{	
+	padding-left: 0;
+	width: 95%;
+	height: 100px;
+	position: relative;
+}
+
+
+ul#add-new-cost-row li 
+{
+	float: left;
+	list-style: none;
+	width: 29%;
+	margin-right: 2%;
+	height: auto;
+}
+
+
+ul#add-new-cost-row li input
+{
+	display: block;
+	width: 90%;
+	height: 40px;
+	padding-left: 15px;
+	background: #E1E1E1;
+	border: 1px solid #E1E1E1;
+	border-radius: 3px;
+	color: black;
+}
+
+
+
+.add-row-button
+{
+	position: absolute;
+	bottom: 10px;
+	right: 30px;
+	width: 60px;
+	height: 30px;
+	background: #23282E;
+	border: 1px solid #23282E;
+	border-radius: 5px;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************************** FAQ'S ****************************/
+/*
+/***************************************************************/
+
+
+
+div.faq
+{
+	float: left;
+	width: 95%;
+	height: auto;
+	position: relative;
+}
+
+
+
+form.faq-textarea
+{
+	float: left;
+	width: calc(33.3333333333333% - 20px);
+	height: 320px;
+	margin-right: 20px;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+
+form.faq-textarea textarea.questions
+{
+	width: 100%;
+	height: 80px;
+	margin-bottom: 20px;
+	padding: 5px 10px;
+	border: 1px solid #ccc;
+}
+
+form.faq-textarea textarea
+{
+	width: 100%;
+	height: 150px;
+	padding: 5px 10px;
+	border: 1px solid #ccc;
+}
+
+
+.faq-button 
+{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************ ORDERED TAXI *************************/
+/*
+/***************************************************************/
+
+
+ol.ordered-taxi
+{
+	width: 95%;
+	height: 300px;
+	padding-left: 0;
+}
+
+
+ol.ordered-taxi label 
+{
+	font-size: 16px;
+}
+
+
+ol.ordered-taxi button 
+{
+	margin-top: 10px;
+	font-size: 15px;
+}
+
+
+ol.ordered-taxi li 
+{
+	width: 45%;
+	margin-right: 5%;
+	margin-bottom: 70px;
+	height: auto;
+	font-size: 20px;
+	float: left;
+	box-sizing:border-box;
+	padding: 10px 15px;
+}
+
+div.taxi-info-container 
+{
+	width: 100%;
+	height: 200px;
+	margin-right: 3%;
+}
+
+
+section.taxi-location-info
+{
+	width: 45%;
+	height: 100%;
+	float: left;
+}
+
+
+
+section.taxi-passenger-info
+{
+	width: 45%;
+	height: 100%;
+	float: right;
+}
+
+
+section.taxi-location-info span 
+{
+	display: block;
+	margin-bottom: 10px;
+	font-family: sans-serif;
+	font-style: normal;
+	font-size: 15px;
+}
+
+
+
+section.taxi-passenger-info span 
+{
+	display: block;
+	margin-bottom: 20px;
+	font-family: sans-serif;
+	font-style: normal;
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************ ORDERED CAR **************************/
+/*
+/***************************************************************/
+
+
+.ordered-car-id 
+{
+	float: left;
+	width: 100%;
+	height: 200px;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+.ordered-car-id img 
+{
+	float: left;
+	width: 220px;
+	height: 100%;
+}
+
+
+.ordered-car-id p 
+{
+	float: right;
+	width: calc(100% - 250px);
+	height: 100%;
+	font-size: 15px;
+	box-sizing:border-box;
+	padding: 5px 0px 5px 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************ DRIVER TABLE *************************/
+/*
+/***************************************************************/
+
+table.cabs-table input 
+{
+	width: 100%;
+	height: 100%;
+	border: none;
+	margin-top: 25%;
+}
+
+table.cabs-table button
+{
+	margin-top: 25%;
+}
+
+
+table.cabs-table img 
+{
+	width: 95%;
+	height: 100%;
+}
+
+
+table.table 
+{
+	margin-left: -7%;
+	border: 1px solid #ccc;
+}
+
+table.table th 
+{
+
+	text-align: center;
+	border: 1px solid #ccc;
+	border-bottom: none !important;
+}
+
+table.table input
+{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	border: none;
+}
+
+table.table td 
+{
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+table.table td span
+{
+	display: none;
+}
+
+
+table.table td input
+{	
+	opacity: 1 !important;
+}
+
+.list-submit
+{
+	background: transparent;
+}
+
+.browse
+{
+	width: 88px !important;
+	margin-top: 0px !important;
+	padding-left: 0px !important;
+	margin: 0 !important;
+	border: 0 !important;
+}
+
+.cab-submit 
+{
+	width: auto !important;
+	height: auto !important;
+	background: -webkit-linear-gradient(#F2F2F2,#CFCFCF) !important;
+	background: -moz-linear-gradient(#F2F2F2,#CFCFCF) !important;
+	background: -ms-linear-gradient(#F2F2F2,#CFCFCF) !important;
+	background: -o-linear-gradient(#F2F2F2,#CFCFCF) !important;
+	background: linear-gradient(#F2F2F2,#CFCFCF) !important;
+	border: 1px solid #707070 !important;
+	border-radius: 3px;
+	padding: 0px 10px !important;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************ CARS TABLE ***************************/
+/*
+/***************************************************************/
+
+table.cars-table th,
+table.cars-table td 
+{
+	text-align: center;
+	height: auto;
+}
+
+
+
+table.cars-table img
+{
+	width: 100%;
+	height: 100%;
+}
+
+
+table.cars-table label 
+{
+	float: left;
+	padding-left: 15%;
+}
+
+
+table.cars-table input
+{
+	float: right;
+	width: 50%;
+	height: 30px;
+	margin-left: 5%;
+	padding-left: 20px;	
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/********************************** ADD NEW DRIVER *************************/
+/*
+/***************************************************************************/
+
+
+	ul.new-driver-list
+			{	
+				width: 40%;
+				height: auto;
+				margin: auto;
+				padding-left: 0;
+			}
+
+			ul.new-driver-list li 
+			{	
+				width: 100%;
+				height: auto;
+				list-style: none;
+				margin-bottom: 30px;
+			}
+
+			ul.new-driver-list li label 
+			{
+				height: auto;
+				font-size: 17px;
+			}
+
+
+			ul.new-driver-list li input,
+			ul.new-driver-list li textarea
+			{
+				height: 30px;
+				width: 90%;
+			}
+
+
+			ul.new-driver-list li textarea
+			{
+				height: 200px !important;
+				border: 1px solid #ccc;
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************* FEEDBACKS TABLE ***************************/
+/*
+/***************************************************************/
+
+
+
+table.feedback-table th,
+table.feedback-table td 
+{
+	text-align: center;
+}
+
+table.feedback-table td.comments 
+{
+	text-align: justify !important;
+}
+
+
+
+
+
+
+
+
+footer 
+{
+	width: calc(100% + 20px);
+	height: 60px;
+	float: left;
+	margin-top: 100px;
+	background: #23282E;
+}
+
+
+footer p 
+{
+	text-align: center;
+	color: white;
+	line-height: 60px;
+}
+
+
+
+
